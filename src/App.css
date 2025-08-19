@@ -24,10 +24,41 @@ main  .container {
     flex-wrap: wrap;
     gap: 80px 30px;
 }
-main .container  div{
+.card{
 width: 270px;
 
 img {
     width: 100%;
 }
+}
+
+
+.img-box {
+    width: 270px;
+    height:250px;
+    padding: 22px 40px;
+    background: #F5F5F5;
+}
+
+button {
+    width: 100%;
+    height: 41px;
+    background: #000;
+    color: white;
+    border: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius:8px ;
+}
+
+.card {
+    position: relative;
+}
+#discount {
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    background: red;
+    color: white;
+    padding: 4px 8px ;
+    border-radius: 4px;
 }
