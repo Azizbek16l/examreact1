@@ -62,3 +62,43 @@ button {
     padding: 4px 8px ;
     border-radius: 4px;
 }
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header input {
+        background: transparent;
+        border: none;
+
+}
+header{
+   padding-bottom: 23px;
+   border-bottom: 1px solid grey;
+   margin-bottom: 50px;
+}
+header .container{
+    padding-top: 95px;
+    display: flex;
+    justify-content: space-between;
+
+}
+header ul:nth-child(2){
+    gap: 48px;
+    
+}
+header ul:nth-child(3){
+    gap: 24px;
+    
+
+    li:nth-child(1){
+        background: #F5F5F5;
+        display: flex;
+        padding: 8px 20px;
+        align-items: center;
+    }
+}
+
+
